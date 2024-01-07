@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Lesh-AG/static/css/main.861895a4.css",
+    "main.js": "/Lesh-AG/static/js/main.6491364a.js",
+    "static/js/787.d2998232.chunk.js": "/Lesh-AG/static/js/787.d2998232.chunk.js",
+    "static/media/inf-bg2.jpg": "/Lesh-AG/static/media/inf-bg2.1e5c01d5cd1410cadaab.jpg",
+    "static/media/media-f.jpg": "/Lesh-AG/static/media/media-f.9e6a2efea4bf334b1299.jpg",
+    "static/media/Carrusel-sistemas.jpg": "/Lesh-AG/static/media/Carrusel-sistemas.b6f0a8725160dccc774f.jpg",
+    "static/media/Carrusel-cancion.jpeg": "/Lesh-AG/static/media/Carrusel-cancion.401e2f2f09c77e4d85b3.jpeg",
+    "static/media/carro-d.jpg": "/Lesh-AG/static/media/carro-d.08f367c05b69e3dd4ca3.jpg",
+    "static/media/con-lesh.jpeg": "/Lesh-AG/static/media/con-lesh.19c4f41524990ed142f2.jpeg",
+    "static/media/Carrusel-artista.jpeg": "/Lesh-AG/static/media/Carrusel-artista.7008c966526556b4a9e8.jpeg",
+    "static/media/Carrusel-lesh.jpeg": "/Lesh-AG/static/media/Carrusel-lesh.e778773d8776fea8e72a.jpeg",
+    "static/media/Insta.png": "/Lesh-AG/static/media/Insta.3dcee5232493ab88f582.png",
+    "static/media/Spotify.png": "/Lesh-AG/static/media/Spotify.fada30eecd6bbe0b0d9a.png",
+    "static/media/Tw.png": "/Lesh-AG/static/media/Tw.1bcc7a39ab99e29ee6e6.png",
+    "static/media/YT.png": "/Lesh-AG/static/media/YT.553ae416a7e7f1e6343a.png",
+    "static/media/brand-logo-cian.png": "/Lesh-AG/static/media/brand-logo-cian.258fd27ee098c295e4ed.png",
+    "index.html": "/Lesh-AG/index.html",
+    "main.861895a4.css.map": "/Lesh-AG/static/css/main.861895a4.css.map",
+    "main.6491364a.js.map": "/Lesh-AG/static/js/main.6491364a.js.map",
+    "787.d2998232.chunk.js.map": "/Lesh-AG/static/js/787.d2998232.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.861895a4.css",
+    "static/js/main.6491364a.js"
+  ]
+}
