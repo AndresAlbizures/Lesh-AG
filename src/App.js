@@ -1,8 +1,6 @@
 import './App.css';
 import Startbar from './Componentes/Startbar';
 import Galeria from './Componentes/Galeria';
-import InfoPrincipal from './Componentes/Info-principal';
-import Servicios from './Componentes/Servicios';
 import Media from './Componentes/Media';
 import Redes from './Componentes/Redes';
 import Contacto from './Componentes/Contacto';
@@ -19,8 +17,6 @@ function App() {
         <Routes>
           <Route path='/' element={<Startbar/>}>
             <Route path='/' element={<Galeria/>}/>
-            <Route path='info'element={<InfoPrincipal/>}/>
-            <Route path='servicios'element={<Servicios/>}/>
             <Route path='media'element={<Media/>}/>
             <Route path='redes'element={<Redes/>}/>
             <Route path='contacto'element={<Contacto/>}/>
