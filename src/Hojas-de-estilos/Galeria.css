@@ -1,0 +1,50 @@
+.carro {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 95px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../Imagenes/carro-d.jpg");
+    
+}
+
+.carrusel {
+    position: relative;
+    display: flex;
+    flex-wrap: center;
+    align-items: center;
+    width: auto;
+    height: 660px;
+}
+
+.foto-carrusel {
+
+    min-height: 200px;
+    height: auto;
+    max-height: 400px;
+    min-width: 150px;
+    padding: 25px;
+    margin: 0 auto;
+    align-content: center;
+}
+.foto-carrusel1 {
+
+    min-height: 200px;
+    height: auto;
+    max-height: 600px;
+    min-width: 150px;
+    padding: 25px;
+    margin: 0 auto;
+    align-content: center;
+}
+.foto-carrusel2 {
+
+    min-height: 200px;
+    height: auto;
+    max-height: 300px;
+    min-width: 150px;
+    padding: 25px;
+    margin: 0 auto;
+    align-content: center;
+}

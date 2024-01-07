@@ -1,0 +1,85 @@
+.div-redes {
+    margin-top: 95px;
+    background-color: rgb(70, 81, 91);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: end;
+    width: auto;
+    height: 670px;
+    gap: 50px;
+
+}
+
+.container-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ico-size {
+    margin-top: 1.3px;
+    background-color: transparent;
+    width: 100px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 100%;
+    -webkit-box-reflect: below -15px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4));
+}
+
+.ico-size:hover {
+    transform: scale(0.8);
+}
+
+.ico-blur {
+
+    margin-top: 10px;
+    background-color: transparent;
+    width: 80px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 100%;
+    -webkit-box-reflect: below 5px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4));
+}
+
+.ico-blur:hover {
+    transform: scale(0.8);
+
+}
+
+@media (max-width: 925px){
+  .div-redes {
+    margin-top: 95px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    height: 100vh;
+    text-align: center;
+    
+}
+
+@media (max-width: 825px) {
+    .div-redes {
+        margin-top: 95px;
+        display: flex;
+        padding: 80px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        text-align: center;
+        
+    }
+}
+}

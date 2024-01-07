@@ -1,24 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+import Startbar from './Componentes/Startbar';
+import Galeria from './Componentes/Galeria';
+import InfoPrincipal from './Componentes/Info-principal';
+import Servicios from './Componentes/Servicios';
+import Media from './Componentes/Media';
+import Redes from './Componentes/Redes';
+import Contacto from './Componentes/Contacto';
+import { Route, Routes } from 'react-router-dom';
+<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awsome/5.13.0/css/all.min.css' rel='stylesheet0'></link>
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+      <div>
+       
+        <Routes>
+          <Route path='/' element={<Startbar/>}>
+            <Route path='/' element={<Galeria/>}/>
+            <Route path='info'element={<InfoPrincipal/>}/>
+            <Route path='servicios'element={<Servicios/>}/>
+            <Route path='media'element={<Media/>}/>
+            <Route path='redes'element={<Redes/>}/>
+            <Route path='contacto'element={<Contacto/>}/>
+          </Route>
+        </Routes>
+
+      </div>
   );
 }
 
