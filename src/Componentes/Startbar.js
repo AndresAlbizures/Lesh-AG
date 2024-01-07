@@ -24,12 +24,10 @@ const Startbar = () => {
         <FontAwesomeIcon icon={faBars} style={{ color: "#e8e8e8", }} />
       </label>
       <ul className="hor">
-        <li ><a to="/"  className="link-bar2">Inicio</a></li>
-        <li ><a to="/info" className="link-bar2" >Acerca de</a></li>
-        <li ><a to="/servicios" className="link-bar2">Servicios</a></li>
-        <li ><a to="/media" className="link-bar2" >Media</a></li>
-        <li ><a to="/redes" className="link-bar2">Redes Sociales</a></li>
-        <li ><a to="/contacto" className="link-bar2">Contacto</a></li>
+        <li ><NavLink to="/"  className="link-bar2">Inicio</NavLink></li>
+        <li ><NavLink to="/media" className="link-bar2" >Media</NavLink></li>
+        <li ><NavLink to="/redes" className="link-bar2">Redes Sociales</NavLink></li>
+        <li ><NavLink to="/contacto" className="link-bar2">Contacto</NavLink></li>
       </ul>
 
      
