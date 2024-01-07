@@ -13,7 +13,6 @@ function App() {
   return (
     
       <div>
-       
         <Routes>
           <Route path='/' element={<Startbar/>}>
             <Route path='/' element={<Galeria/>}/>
